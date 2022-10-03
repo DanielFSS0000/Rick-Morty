@@ -1,0 +1,53 @@
+:root {
+    --background-cards: #062226;
+    --background-body: #142a2a;
+}
+
+/* RESET DOCUMENT  */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: var(--background-body);
+    color: white;
+}
+h1,h2,h3,h4,p,ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+ul{
+    padding-left: 0;    
+    list-style:none;
+    margin: auto;
+}
+img{
+    display: block;
+}
+form{    
+    position: absolute;
+    left:600px;
+    top: 325px;
+}
+button{
+    text-align: center;
+    background-color: var(--background-body);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;  
+    cursor: pointer;
+    width: 70px;
+    box-shadow: 4px 10px 10px black;
+
+}
+input{
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 1px 5px 15px black;
+}
